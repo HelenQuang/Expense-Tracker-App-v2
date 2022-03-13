@@ -14,7 +14,7 @@ const dummyData = [
     id: "e3",
     title: "Car Insurance",
     amount: 294.67,
-    date: new Date(2022, 2, 28),
+    date: new Date(2021, 2, 28),
   },
   {
     id: "e4",
@@ -36,6 +36,7 @@ const App = () => {
   return (
     <div>
       <NewExpense onAddNewExpense={addNewExpenseHandler} />
+
       <Expenses items={expenses} />
     </div>
   );
